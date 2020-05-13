@@ -7,7 +7,7 @@ function turnOn() {
     if (permission === "granted") {
       var notification = new Notification("Notifications On!", notifyNew);
 notification.onclick = function() {
-  open("/g/home/main.html");
+  open("https://all-the-gens.github.io/l/word-search/main.html");
 }
     }
   });
