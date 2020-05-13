@@ -7,7 +7,7 @@ function turnOn() {
     if (permission === "granted") {
       var notification = new Notification("Notifications On!", notifyNew);
 notification.onclick = function() {
-  open("/home/main.html");
+  open("/g/home/main.html");
 }
     }
   });
